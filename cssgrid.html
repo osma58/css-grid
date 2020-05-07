@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+        grid-template-columns: 70% 30%;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        }
+.wrapper > div {
+    background-color: grey;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background-color: #ddd;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus beatae cupiditate corporis molestiae nam aliquid consequatur dolorum tempore saepe commodi recusandae eligendi reprehenderit ducimus obcaecati natus dolore, eum aspernatur autem? Ipsa sint hic ullam maxime provident, magnam ipsum vitae nobis quasi! Nobis sunt iste enim, optio natus facilis quis? Esse cumque neque quas aliquam distinctio vel obcaecati minima quae omnis, perferendis eos libero officia tempore officiis ex dolorem dolores, labore ducimus ipsum sequi iste? Aperiam distinctio blanditiis impedit assumenda minus.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga dicta quae voluptate ratione est molestiae quia magni excepturi accusantium, culpa quisquam sed adipisci impedit numquam ipsum aliquid tempore vitae.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus beatae cupiditate corporis molestiae nam aliquid consequatur dolorum tempore saepe commodi recusandae eligendi reprehenderit ducimus obcaecati natus dolore, eum aspernatur autem? Ipsa sint hic ullam maxime provident, magnam ipsum vitae nobis quasi! Nobis sunt iste enim, optio natus facilis quis? Esse cumque neque quas aliquam distinctio vel obcaecati minima quae omnis, perferendis eos libero officia tempore officiis ex dolorem dolores, labore ducimus ipsum sequi iste? Aperiam distinctio blanditiis impedit assumenda minus.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga dicta quae voluptate ratione est molestiae quia magni excepturi accusantium, culpa quisquam sed adipisci impedit numquam ipsum aliquid tempore vitae.
+        </div>
+        
+    </div>
+</body>
+</html>
